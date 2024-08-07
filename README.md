@@ -20,7 +20,7 @@ To seed the database run the command `npm run seed`
 
 ## Usage
 
-Click [here]() for a video demonstration.
+Click [here](https://drive.google.com/file/d/1kKaogkG4xk39VeTcDVD52SJISDN5SGVk/view?usp=sharing) for a video demonstration.
 
 To use this project, clone the repository and ensure current versions of Node.js, PostgreSQL, and Insomnia are installed.  Install all necessary dependencies (see package.json for more details). Store credentials and sensitive information in a .env file (such as your database password).  Connect to postgreSQL via command line and run the schema.sql file to create the database for the application.  After the database is created, in the command line run `npm run seed` to seed the database with pre-entered data.  After successfully seeding database, run the command `node server.js` to start the application.  Then, open Insomnia and in the http request field, enter in the api url of the data you are trying to access.  This application has several endpoints built in:
 
