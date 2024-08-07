@@ -63,7 +63,7 @@ router.put('/:id', async (req, res) => {
     category.category_name = category_name;
     await category.save(); 
 
-    return res.status(200).json(category);
+    return res.status(200).json({ message: 'Category successfully updated.' });
   } catch (err) {
     return res.status(500).json(err);
   }
